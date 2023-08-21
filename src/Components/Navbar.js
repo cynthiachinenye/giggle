@@ -5,6 +5,7 @@ function Navbar() {
     <div className="navbar">
       
       <div className='leftside'></div>
+      <img src=""/>
       <div className='rightside'></div>
       
     </div>
