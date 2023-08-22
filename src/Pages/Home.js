@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import BannerImage from '../Asset/pexels-3.jpeg'
+import BannerImage from '../Asset/pexels-photo-7902939.jpeg'
 import '../Styles/Home.css'
 
 function Home() {
   return (
-    <div className='home'>
+    <div className='home' style={{backgroundImage: `url( ${BannerImage})`}}>
        
-      <div className="headerContainer" style={{backgroundImage: `url( ${BannerImage})`}}>
+      <div className="headerContainer" >
           <h1>Cyndy's Pizzeria</h1>
           <p> PIZZA TO FIT ANY TASTE</p>
       

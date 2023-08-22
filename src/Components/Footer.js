@@ -3,6 +3,7 @@ import Instagram from '@mui/icons-material/Instagram'
 import Twitter from '@mui/icons-material/Twitter'
 import Facebook from '@mui/icons-material/Facebook'
 import Whatsapp from '@mui/icons-material/LinkedIn'
+import '../Styles/Footer.css'
 function Footer() {
   return (
     <div className="footer">
