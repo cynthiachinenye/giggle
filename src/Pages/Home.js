@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import BannerImage from '../Asset/pexels-photo-5.jpeg'
+import BannerImage from '../Asset/pexels-3.jpeg'
+import '../Styles/Home.css'
 
 function Home() {
   return (
@@ -9,11 +10,13 @@ function Home() {
       <div className="headerContainer" style={{backgroundImage: `url( ${BannerImage})`}}>
           <h1>Cyndy's Pizzeria</h1>
           <p> PIZZA TO FIT ANY TASTE</p>
-      </div>
-      <Link to='/menu'>
-      <button>ORDER NOW</button>
-      </Link>
-       
+      
+          <Link to='/menu'>
+          <button>ORDER NOW</button>
+          </Link>
+         
+          </div>
+             
     </div>
   )
 }
