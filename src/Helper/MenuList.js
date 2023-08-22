@@ -1,4 +1,10 @@
 
+import Pepper0nie from '../Asset/egg-pizza.jpeg'
+import mini from '../Asset/mini.jpeg'
+import nets from '../Asset/img.jpg'
+import Pep from '../Asset/istockphoto-840180184-612x612.jpg'
+import merit from '../Asset/pexels-2.jpeg'
+import Pepper from '../Asset/pexels-3.jpeg'
 
 export const menu = [
      {
@@ -20,22 +26,24 @@ export const menu = [
      },
 
      {
-        name:chicken,
+        name:Chicken,
         image: Pep,
         price: 6000
      },
 
      {
         name:Margherita,
-        image: Pepper0nie,
+        image: merit,
         price: 5500
-     }
+     },
 
      {
-        name:egg-pizza,
-        image: Pepper0nie,
+        name:Pepperonie,
+        image: Pepper,
         price: 6000
-     }
+     },
+
+
 
 
 ]
