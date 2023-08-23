@@ -6,39 +6,39 @@ import Pep from '../Asset/istockphoto-840180184-612x612.jpg'
 import merit from '../Asset/pexels-2.jpeg'
 import Pepper from '../Asset/pexels-3.jpeg'
 
-export const menu = [
+export const MenuList = [
      {
-        name:egg-pizza,
+        name:'egg_pizza',
         image: Pepper0nie,
         price: 6000
      },
 
      {
-        name:mini-pizza,
+        name:'mini_pizza',
         image: mini,
         price: 1500
      },
 
      {
-        name:suasage-pizza,
+        name:'suasage_pizza',
         image: nets,
         price: 6000
      },
 
      {
-        name:Chicken,
+        name:'Chicken',
         image: Pep,
         price: 6000
      },
 
      {
-        name:Margherita,
+        name:'Margherita',
         image: merit,
         price: 5500
      },
 
      {
-        name:Pepperonie,
+        name:'Pepper0nie',
         image: Pepper,
         price: 6000
      },

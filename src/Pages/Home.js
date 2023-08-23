@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import BannerImage from '../Asset/pexels-photo-7902939.jpeg'
+import BannerImage from '../Asset/pexels-3.jpeg'
 import '../Styles/Home.css'
 
 function Home() {
