@@ -8,19 +8,19 @@ import Pepper from '../Asset/pexels-3.jpeg'
 
 export const MenuList = [
      {
-        name:'egg_pizza',
+        name:'Egg pizza',
         image: Pepper0nie,
         price: 6000
      },
 
      {
-        name:'mini_pizza',
+        name:'Mini pizza',
         image: mini,
         price: 1500
      },
 
      {
-        name:'suasage_pizza',
+        name:'Suasage pizza',
         image: nets,
         price: 6000
      },
@@ -38,12 +38,10 @@ export const MenuList = [
      },
 
      {
-        name:'Pepper0nie',
+        name:'Pepperonie',
         image: Pepper,
         price: 6000
      },
-
-
 
 
 ]

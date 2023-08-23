@@ -4,9 +4,9 @@ function MenuItem({image, name, price}) {
   return (
     <div className="menuItem">
     <div style={{backgroundImage:`url(${image})`}}></div>
-    <div>{name}</div>
+    <h1>{name}</h1>
 
-    <div> ${price}</div>
+    <p> ${price}</p>
     </div>
   )
 }
