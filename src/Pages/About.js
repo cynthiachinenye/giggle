@@ -1,5 +1,6 @@
 import React from 'react'
-import AboutImage from '../Asset/photo-pic.jpg'
+import AboutImage from '../Asset/pexels-photo-7.jpeg'
+import '../Styles/About.css'
 function About() {
   return (
     <div className="about">
